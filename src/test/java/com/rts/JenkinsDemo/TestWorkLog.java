@@ -10,22 +10,26 @@ public class TestWorkLog {
 	@Test
 	public void testAddToLog1() {
 
-		assertEquals("Added log for Remo",w1.addToLog("Remo"));
+		assertEquals("Added log for Remo", w1.addToLog("Remo"));
 
 	}
 
+	@Test
 	public void testAddToLog2() {
-         assertEquals("Added log for Remo",w1.addToLog("Remo"));
+		assertEquals("Added log for Remo", w1.addToLog("Remo"));
 	}
+
+	@Test
 
 	public void testAddLogin1() {
-		assertEquals("Added Login log for Lokesh",w1.addToLog("Lokesh"));
-		
+		assertEquals("Added log for Lokesh", w1.addToLog("Lokesh"));
 
 	}
 
+	@Test
+
 	public void testAddLogin2() {
-		assertEquals("Added Login log for Dharshsun",w1.addToLog("Dharshsun"));
+		assertEquals("Added log for Dharshsun", w1.addToLog("Dharshsun"));
 	}
 
 }
